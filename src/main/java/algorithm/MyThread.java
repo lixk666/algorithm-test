@@ -20,6 +20,8 @@ public class MyThread extends Thread{
             String threadName = Thread.currentThread().getName();
             System.out.println(threadName + "卖出了" + ticket);
             ticket--;
+
+            ///222
         }
     }
 }
